@@ -11,13 +11,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="message input"/>
+        android:text="메세지입력"/>
 
     <EditText
         android:id="@+id/editMessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="write free"/>
+        android:hint="자유롭게 적어주세요"/>
     <Button
         android:id="@+id/btnOk"
         android:layout_width="match_parent"
@@ -31,5 +31,20 @@
         android:layout_marginTop="10dp"
         android:textSize="17sp"
         android:text="입력된 메세지가 이곳에 표시됩니다"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="i숫자입력"
+        android:layout_marginTop="15dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="정수 하나를 입력하세요"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="입력한 숫자는, 홀? 짝?"/>
 
 </LinearLayout>
