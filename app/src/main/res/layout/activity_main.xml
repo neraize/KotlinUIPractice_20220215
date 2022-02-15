@@ -14,10 +14,12 @@
         android:text="message input"/>
 
     <EditText
+        android:id="@+id/editMessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="write free"/>
     <Button
+        android:id="@+id/btnOk"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="confirm"/>
